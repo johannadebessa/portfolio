@@ -241,13 +241,19 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   border:1px solid var(--line);
   box-shadow: var(--shadow);
 }
+/* Bouton LinkedIn en mode "icône nue" */
 .iconbtn{
-  padding:11px 12px; /* bouton plus carré */
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  min-height: 0;
 }
+
 .icon{
-  width:18px;
-  height:18px;
-  display:block;
-  fill: currentColor;
+  width: 26px;  /* augmente ici si tu veux */
+  height: 26px;
+  display: block;
 }
+
 
