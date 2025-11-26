@@ -241,4 +241,13 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   border:1px solid var(--line);
   box-shadow: var(--shadow);
 }
+.iconbtn{
+  padding:11px 12px; /* bouton plus carré */
+}
+.icon{
+  width:18px;
+  height:18px;
+  display:block;
+  fill: currentColor;
+}
 
