@@ -1,7 +1,7 @@
 [
   {
     "title": "NextRoad Academy - plateforme e-learning",
-    "period": "NextRoad • 2024 •",
+    "period": "NextRoad • 2024",
     "context": "Conception et déploiement d’une plateforme de formation interne pour partager le savoir-faire des experts, capitaliser les connaissances et développer les compétences des collaborateurs (cours, quiz, certificats).",
     "actions": [
     "Recueil des besoins auprès des managers et des équipes",
@@ -33,7 +33,6 @@
     "Mise en place de la traçabilité : validation/attestation, suivi des complétions, relances si besoin",
     "Améliorations continues : retours utilisateurs, mises à jour des contenus, ajustements du parcours"
   ],
-    ],
     "kpis": [
       "Gain de temps RH/managers",
       "Onboarding plus fluide et standardisé",
