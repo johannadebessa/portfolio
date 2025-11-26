@@ -297,4 +297,61 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   display:block;
   opacity:.9;
 }
+/* ===== Thème sombre : palette CV (bordeaux / gris) ===== */
+[data-theme="dark"]{
+  --accent: #774041;
+  --text: #f3f3f3;
+  --muted: rgba(200,200,200,.85);
+  --line: rgba(200,200,200,.18);
+}
+
+/* Fond avec halo (dégradé) */
+[data-theme="dark"] body{
+  background:
+    radial-gradient(900px 420px at 18% 12%, rgba(119,64,65,.22), transparent 62%),
+    radial-gradient(700px 360px at 85% 0%, rgba(200,200,200,.08), transparent 60%),
+    linear-gradient(180deg, #0d0d0f, #151518);
+  color: var(--text);
+}
+
+/* Lisibilité globale */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] p,
+[data-theme="dark"] li{
+  color: var(--text);
+}
+
+[data-theme="dark"] .muted{ color: var(--muted); }
+
+/* Cartes / blocs */
+[data-theme="dark"] .card{
+  background: rgba(255,255,255,.05);
+  border-color: var(--line);
+}
+
+[data-theme="dark"] .kpi,
+[data-theme="dark"] .tag,
+[data-theme="dark"] .chip{
+  background: rgba(255,255,255,.04);
+  border-color: var(--line);
+  color: var(--text);
+}
+
+/* Boutons secondaires */
+[data-theme="dark"] .btn--ghost{
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--text);
+  box-shadow: none;
+}
+
+/* Focus (remplace le bleu) */
+[data-theme="dark"] .btn:focus,
+[data-theme="dark"] a:focus,
+[data-theme="dark"] summary:focus{
+  outline: 3px solid rgba(119,64,65,.45);
+  outline-offset: 2px;
+}
 
