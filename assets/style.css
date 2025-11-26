@@ -354,4 +354,64 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   outline: 3px solid rgba(119,64,65,.45);
   outline-offset: 2px;
 }
+/* Switch Jour/Nuit (palette CV) */
+.themeSwitch{
+  border:0;
+  background:transparent;
+  padding:0;
+  cursor:pointer;
+}
+
+.themeSwitch__track{
+  width:56px;
+  height:30px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.7);
+  box-shadow: var(--shadow);
+  position:relative;
+  display:inline-block;
+}
+
+[data-theme="dark"] .themeSwitch__track{
+  background: rgba(255,255,255,.06);
+}
+
+.themeSwitch__thumb{
+  width:24px;
+  height:24px;
+  border-radius:999px;
+  position:absolute;
+  top:50%;
+  left:3px;
+  transform: translateY(-50%);
+  background: #c8c8c8;
+  box-shadow: 0 6px 18px rgba(0,0,0,.18);
+  transition: left .18s ease, background .18s ease;
+}
+
+.themeSwitch__icon{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  width:16px;
+  height:16px;
+  color: #404040;
+  opacity:.9;
+}
+
+.themeSwitch__icon svg{ width:16px; height:16px; display:block; }
+
+.themeSwitch__icon--moon{ left:8px; }
+.themeSwitch__icon--sun{ right:8px; }
+
+/* Etat sombre = thumb à droite + bordeaux */
+[data-theme="dark"] .themeSwitch__thumb{
+  left:29px;
+  background: #774041;
+}
+
+[data-theme="dark"] .themeSwitch__icon{
+  color: rgba(200,200,200,.9);
+}
 
