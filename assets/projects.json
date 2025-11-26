@@ -14,7 +14,7 @@
     ],
     "kpis": [
       "Réduction des coûts de formation",
-      "Montée en compétence généralisée",
+      "Montée en compétence des collaborateurs",
       "Culture & prévention renforcées"
     ],
     "tags": ["Interne", "RH", "Formation", "Projet"],
@@ -34,10 +34,10 @@
     "Améliorations continues : retours utilisateurs, mises à jour des contenus, ajustements du parcours"
   ],
     "kpis": [
-      "Gain de temps RH/managers",
+      "Gain de temps RH/Managers",
       "Onboarding plus fluide et standardisé",
       "Meilleure appropriation des règles sécurité dès l’arrivée",
-      "Traçabilité utile en cas d’audit / conformité"
+      "Traçabilité en cas d’audit / conformité"
     ],
     "tags": ["Interne", "RH", "Digital", "Process"],
     "link": ""
@@ -45,15 +45,17 @@
   {
     "title": "Réseau social d’entreprise + animations internes",
     "period": "NextRoad",
-    "context": "Fédérer les équipes après la fusion de trois entités.",
+    "context": "Fédérer les équipes après la fusion de plusieurs entités.",
     "actions": [
-      "Mise en place du réseau social d’entreprise",
+      "Choix et mise en place d'un réseau social d’entreprise",
+      "Création d’une ligne éditoriale interne + calendrier",
+      "Animation de la communauté : jeux concours, temps forts, mise en avant des équipes",
+      "Suivi de l’engagement et optimisation"
       "Jeux concours & animations internes",
-      "Calendrier éditorial interne",
-      "Relais terrain + retours usage"
+
     ],
     "kpis": [
-      "Communication interne améliorée",
+      "Communication interne plus fluide et régulière",
       "Sentiment d’appartenance renforcé",
       "Dynamique collective créée"
     ],
@@ -63,14 +65,21 @@
   {
     "title": "E-commerce : fiches produits + optimisation Etsy",
     "period": "Malicieuse • 2019",
-    "context": "Améliorer la visibilité des produits et soutenir les ventes via une marketplace.",
+    "context": "Optimisation de la présence e-commerce sur Etsy pour améliorer la visibilité des produits et soutenir les ventes : contenus, référencement et cohérence de la boutique.",
     "actions": [
-      "Création & mise en ligne des fiches produits",
-      "Référencement des produits sur Etsy",
-      "Optimisations (titres, visuels, cohérence catalogue)",
-      "Suivi et ajustements"
+      "Création et mise en ligne de fiches produits : titres, descriptions, bénéfices, caractéristiques, FAQ",
+    "Optimisation SEO Etsy : mots-clés, tags, catégories, attributs, titres orientés recherche",
+    "Amélioration du merchandising : cohérence catalogue, organisation des collections, mise en avant des best-sellers",
+    "Production/optimisation des visuels produit (photos, retouches, uniformisation du style)",
+    "Optimisation conversion : clarté des informations, variations, conseils d’usage, réassurance (livraison/retours)",
+    "Mise à jour régulière des annonces (saisonnalité, nouveautés, ajustements selon performances)",
+    "Suivi et ajustements : analyse des résultats Etsy et itérations sur contenus/keywords/visuels"
     ],
-    "kpis": ["Optimisation des ventes via la plateforme"],
+    "kpis": [
+      "Optimisation des ventes via la plateforme"
+      "Visibilité améliorée sur la marketplace",
+      "Fiches produits plus claires et plus attractives",
+    ],
     "tags": ["Marketing", "E-commerce", "Contenus"],
     "link": ""
   },
