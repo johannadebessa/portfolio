@@ -284,4 +284,17 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   margin: 8px 0 0;
 }
 .edu li{ margin: 6px 0; }
+.kpi{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+}
+
+.kpi__icon{
+  width:14px;
+  height:14px;
+  object-fit:contain;
+  display:block;
+  opacity:.9;
+}
 
