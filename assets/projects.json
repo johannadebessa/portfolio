@@ -4,13 +4,13 @@
     "period": "NextRoad • 2024",
     "context": "Conception et déploiement d’une plateforme de formation interne pour partager le savoir-faire des experts, capitaliser les connaissances et développer les compétences des collaborateurs (cours, quiz, certificats).",
     "actions": [
-    "Recueil des besoins auprès des managers et des équipes",
-    "Cadrage du projet et structuration des parcours (thématiques, niveaux, prérequis, objectifs pédagogiques)",
-    "Conception et création du site / espace e-learning accessible uniquement en interne",
-    "Production des contenus pédagogiques : supports, modules, quiz, certificats",
-    "Coordination avec les experts métiers pour valider le fond et garantir la qualité des contenus",
-    "Déploiement et communication interne (annonce, mode d’emploi, relais, accompagnement du lancement)",
-    "Suivi de l’adoption et améliorations continues (retours utilisateurs, mises à jour, nouveaux modules)"
+      "Recueil des besoins auprès des managers et des équipes",
+      "Cadrage du projet et structuration des parcours (thématiques, niveaux, prérequis, objectifs pédagogiques)",
+      "Conception et création du site / espace e-learning accessible uniquement en interne",
+      "Production des contenus pédagogiques : supports, modules, quiz, certificats",
+      "Coordination avec les experts métiers pour valider le fond et garantir la qualité des contenus",
+      "Déploiement et communication interne (annonce, mode d’emploi, relais, accompagnement du lancement)",
+      "Suivi de l’adoption et améliorations continues (retours utilisateurs, mises à jour, nouveaux modules)"
     ],
     "kpis": [
       "Réduction des coûts de formation",
@@ -25,14 +25,14 @@
     "period": "NextRoad",
     "context": "Digitalisation du parcours d’accueil sécurité pour préparer les nouveaux collaborateurs avant leur arrivée : homogénéiser les messages, gagner du temps côté managers/RH, et renforcer la prévention dès le J1 grâce à un format interactif (contenus + quiz + validation).",
     "actions": [
-    "Recueil des besoins et des points de vigilance terrain (RH, managers, QSE) pour définir le contenu incontournable",
-    "Structuration du parcours : étapes, messages clés, règles, bonnes pratiques et points d’alerte",
-    "Scénarisation pédagogique (format interactif, vidéos/supports, progression, quiz de validation)",
-    "Création et mise en forme des contenus (supports, visuels, ressources, quiz) + harmonisation du ton",
-    "Mise en ligne de l’accueil digital et paramétrage de l’accès avant J1 (diffusion aux entrants, consignes)",
-    "Mise en place de la traçabilité : validation/attestation, suivi des complétions, relances si besoin",
-    "Améliorations continues : retours utilisateurs, mises à jour des contenus, ajustements du parcours"
-  ],
+      "Recueil des besoins et des points de vigilance terrain (RH, managers, QSE) pour définir le contenu incontournable",
+      "Structuration du parcours : étapes, messages clés, règles, bonnes pratiques et points d’alerte",
+      "Scénarisation pédagogique (format interactif, vidéos/supports, progression, quiz de validation)",
+      "Création et mise en forme des contenus (supports, visuels, ressources, quiz) + harmonisation du ton",
+      "Mise en ligne de l’accueil digital et paramétrage de l’accès avant J1 (diffusion aux entrants, consignes)",
+      "Mise en place de la traçabilité : validation/attestation, suivi des complétions, relances si besoin",
+      "Améliorations continues : retours utilisateurs, mises à jour des contenus, ajustements du parcours"
+    ],
     "kpis": [
       "Gain de temps RH/Managers",
       "Onboarding plus fluide et standardisé",
@@ -50,9 +50,7 @@
       "Choix et mise en place d'un réseau social d’entreprise",
       "Création d’une ligne éditoriale interne + calendrier",
       "Animation de la communauté : jeux concours, temps forts, mise en avant des équipes",
-      "Suivi de l’engagement et optimisation",
-      "Jeux concours & animations internes",
-
+      "Suivi de l’engagement et optimisation"
     ],
     "kpis": [
       "Communication interne plus fluide et régulière",
@@ -68,17 +66,17 @@
     "context": "Optimisation de la présence e-commerce sur Etsy pour améliorer la visibilité des produits et soutenir les ventes : contenus, référencement et cohérence de la boutique.",
     "actions": [
       "Création et mise en ligne de fiches produits : titres, descriptions, bénéfices, caractéristiques, FAQ",
-    "Optimisation SEO Etsy : mots-clés, tags, catégories, attributs, titres orientés recherche",
-    "Amélioration du merchandising : cohérence catalogue, organisation des collections, mise en avant des best-sellers",
-    "Production/optimisation des visuels produit (photos, retouches, uniformisation du style)",
-    "Optimisation conversion : clarté des informations, variations, conseils d’usage, réassurance (livraison/retours)",
-    "Mise à jour régulière des annonces (saisonnalité, nouveautés, ajustements selon performances)",
-    "Suivi et ajustements : analyse des résultats Etsy et itérations sur contenus/keywords/visuels"
+      "Optimisation SEO Etsy : mots-clés, tags, catégories, attributs, titres orientés recherche",
+      "Amélioration du merchandising : cohérence catalogue, organisation des collections, mise en avant des best-sellers",
+      "Production/optimisation des visuels produit (photos, retouches, uniformisation du style)",
+      "Optimisation conversion : clarté des informations, variations, conseils d’usage, réassurance (livraison/retours)",
+      "Mise à jour régulière des annonces (saisonnalité, nouveautés, ajustements selon performances)",
+      "Suivi et ajustements : analyse des résultats Etsy et itérations sur contenus/keywords/visuels"
     ],
     "kpis": [
       "Optimisation des ventes via la plateforme",
       "Visibilité améliorée sur la marketplace",
-      "Fiches produits plus claires et plus attractives",
+      "Fiches produits plus claires et plus attractives"
     ],
     "tags": ["Marketing", "E-commerce", "Contenus"],
     "link": ""
