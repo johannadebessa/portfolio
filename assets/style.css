@@ -279,4 +279,8 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   display: block;
 }
 
+.edu{
+  padding-left: 28px; /* augmente si tu veux plus */
+  margin: 8px 0 0;
+}
 
