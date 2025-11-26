@@ -101,14 +101,17 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
 .btn{
   display:inline-flex; align-items:center; justify-content:center;
   padding:11px 14px;
-  border-radius: 14px;
-  border:1px solid transparent;
-  background: linear-gradient(135deg, #774041, #404040);
-  color: #ffffff;
-  font-weight: 800;
+  border-radius:14px;
+  border:1px solid #774041;
+  background:#774041;
+  color:#fff;
+  font-weight:800;
   box-shadow: var(--shadow);
-  .btn:hover{ opacity: .95; }
 }
+.btn:hover{
+  filter: brightness(0.95);
+}
+
 
 .btn--ghost{
   background: transparent;
@@ -259,8 +262,8 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
 }
 
 .icon{
-  width: 30px;  /* augmente ici si tu veux */
-  height: 30px;
+  width: 32px;
+  height: 32px;
   display: block;
 }
 
