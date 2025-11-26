@@ -237,7 +237,7 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   border-radius:999px;
   object-fit:cover;
   display:block;
-  margin:16px auto 0;
+  margin:16px 0 0 16px; /* en haut, à gauche */
   border:1px solid var(--line);
   box-shadow: var(--shadow);
 }
