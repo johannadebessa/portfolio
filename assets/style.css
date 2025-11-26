@@ -103,14 +103,13 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   padding:11px 14px;
   border-radius:14px;
   border:1px solid #774041;
-  background:#774041;
+  background: linear-gradient(135deg, #774041, #5f3437);
   color:#fff;
   font-weight:800;
   box-shadow: var(--shadow);
 }
-.btn:hover{
-  filter: brightness(0.95);
-}
+.btn:hover{ filter: brightness(0.97); }
+
 
 
 .btn--ghost{
