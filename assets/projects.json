@@ -1,0 +1,96 @@
+[
+  {
+    "title": "NextRoad Academy — plateforme e-learning",
+    "period": "NextRoad • 2020–",
+    "context": "Conception et déploiement d’une plateforme de formation interne (cours, quiz, certificats).",
+    "actions": [
+      "Cadrage du besoin + structuration des parcours",
+      "Création des contenus (supports, quiz, certificats)",
+      "Déploiement & communication interne",
+      "Pilotage de l’adoption et itérations"
+    ],
+    "kpis": [
+      "Réduction des coûts de formation",
+      "Montée en compétence généralisée",
+      "Culture & prévention renforcées"
+    ],
+    "tags": ["Interne", "RH", "Formation", "Projet"],
+    "link": ""
+  },
+  {
+    "title": "Accueil sécurité digitalisé (onboarding)",
+    "period": "NextRoad",
+    "context": "Parcours d’accueil sécurité interactif diffusé avant l’arrivée des nouveaux collaborateurs.",
+    "actions": [
+      "Scénarisation du parcours (vidéos, supports, quiz)",
+      "Création des contenus pédagogiques",
+      "Mise en ligne + diffusion avant J1",
+      "Traçabilité des validations"
+    ],
+    "kpis": [
+      "Gain de temps RH/managers",
+      "Meilleure appropriation dès J1",
+      "Traçabilité en cas d’audit"
+    ],
+    "tags": ["Interne", "RH", "Digital", "Process"],
+    "link": ""
+  },
+  {
+    "title": "Réseau social d’entreprise + animations internes",
+    "period": "NextRoad",
+    "context": "Fédérer les équipes après la fusion de trois entités.",
+    "actions": [
+      "Mise en place du réseau social d’entreprise",
+      "Jeux concours & animations internes",
+      "Calendrier éditorial interne",
+      "Relais terrain + retours usage"
+    ],
+    "kpis": [
+      "Communication interne améliorée",
+      "Sentiment d’appartenance renforcé",
+      "Dynamique collective créée"
+    ],
+    "tags": ["Interne", "Engagement", "Éditorial"],
+    "link": ""
+  },
+  {
+    "title": "E-commerce : fiches produits + optimisation Etsy",
+    "period": "Malicieuse • 2019",
+    "context": "Améliorer la visibilité des produits et soutenir les ventes via une marketplace.",
+    "actions": [
+      "Création & mise en ligne des fiches produits",
+      "Référencement des produits sur Etsy",
+      "Optimisations (titres, visuels, cohérence catalogue)",
+      "Suivi et ajustements"
+    ],
+    "kpis": ["Optimisation des ventes via la plateforme"],
+    "tags": ["Marketing", "E-commerce", "Contenus"],
+    "link": ""
+  },
+  {
+    "title": "Shooting produit + supports de communication",
+    "period": "Malicieuse • 2019",
+    "context": "Créer des visuels cohérents pour renforcer l’attractivité produit.",
+    "actions": [
+      "Photoshoots produits + retouches",
+      "Création de visuels & supports",
+      "Participation à des événements promotionnels"
+    ],
+    "kpis": [],
+    "tags": ["Créa", "Brand", "Événementiel"],
+    "link": ""
+  },
+  {
+    "title": "Partenariats & influence (sourcing)",
+    "period": "Malicieuse • 2019",
+    "context": "Développer des collaborations pour gagner en visibilité et distribution.",
+    "actions": [
+      "Sourcing d’influenceurs et partenaires",
+      "Collabs pop-up / concept stores",
+      "Coordination des actions"
+    ],
+    "kpis": [],
+    "tags": ["Commercial", "Partenariats", "Influence"],
+    "link": ""
+  }
+]
