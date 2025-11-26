@@ -103,16 +103,19 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   padding:11px 14px;
   border-radius: 14px;
   border:1px solid transparent;
-  background: linear-gradient(135deg, rgba(125,211,252,.95), rgba(99,102,241,.85));
-  color:#07101c;
+  background: linear-gradient(135deg, #774041, #404040);
+  color: #ffffff;
   font-weight: 800;
   box-shadow: var(--shadow);
+  .btn:hover{ opacity: .95; }
 }
+
 .btn--ghost{
   background: transparent;
-  border:1px solid var(--line);
-  color:var(--text);
-  box-shadow:none;
+  border: 1px solid #c8c8c8;
+  color: var(--text);
+  box-shadow: none;
+  .btn:hover{ opacity: .95; }
 }
 
 .btn:focus, .nav__btn:focus, a:focus, summary:focus{
