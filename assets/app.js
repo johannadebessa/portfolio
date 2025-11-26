@@ -3,9 +3,11 @@ const $ = (sel) => document.querySelector(sel);
 function setTheme(theme) {
   document.documentElement.setAttribute("data-theme", theme);
   localStorage.setItem("theme", theme);
+
   const btn = $("#themeToggle");
-  if (btn) btn.textContent = theme === "light" ? "☼" : "☾";
+  if (btn) btn.setAttribute("aria-checked", theme === "dark" ? "true" : "false");
 }
+
 
 function initTheme() {
   const saved = localStorage.getItem("theme");
@@ -111,10 +113,3 @@ loadProjects().catch(() => {
   const grid = $("#projectsGrid");
   if (grid) grid.innerHTML = `<div class="card"><div class="card__content">Erreur : vérifie <code>assets/projects.json</code>.</div></div>`;
 });
-const themeBtn = document.getElementById("themeToggle");
-const syncSwitch = () => {
-  const isDark = document.documentElement.getAttribute("data-theme") === "dark";
-  themeBtn?.setAttribute("aria-checked", isDark ? "true" : "false");
-};
-syncSwitch();
-document.getElementById("themeToggle")?.addEventListener("click", () => setTimeout(syncSwitch, 0));
