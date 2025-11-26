@@ -61,9 +61,13 @@ a{color:inherit; text-decoration:none}
 }
 .brand{display:flex; align-items:center; gap:10px; font-weight:800}
 .brand__dot{
-  width:10px; height:10px; border-radius:999px; background:var(--accent);
-  box-shadow: 0 0 0 6px rgba(125,211,252,.15);
+  width:10px;
+  height:10px;
+  border-radius:999px;
+  background:#774041;
+  box-shadow: 0 0 0 6px rgba(119,64,65,.18);
 }
+
 
 .nav{display:flex; align-items:center; gap:10px; font-size:14px; flex-wrap:wrap}
 .nav a{padding:8px 10px; border-radius:10px}
