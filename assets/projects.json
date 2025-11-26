@@ -104,13 +104,20 @@
   {
     "title": "Partenariats & influence (sourcing)",
     "period": "Malicieuse • 2019",
-    "context": "Développer des collaborations pour gagner en visibilité et distribution.",
+    "context": "Développement de collaborations (influence, pop-up, concept stores) pour gagner en visibilité, générer du trafic et soutenir la distribution.",
     "actions": [
-      "Sourcing d’influenceurs et partenaires",
-      "Collabs pop-up / concept stores",
-      "Coordination des actions"
+    "Identification et qualification d’influenceurs, boutiques et partenaires (ciblage, cohérence de marque, audience/zone)",
+    "Prise de contact et propositions de collaboration (messages, contreparties, conditions)",
+    "Coordination des envois produits / contenus et suivi des publications (planning, relances, récupération des visuels)",
+    "Organisation de collaborations pop-up / concept stores : préparation, supports, logistique et présence",
+    "Création d’outils d’aide à la vente : pitch, argumentaire, présentation marque/produits",
+    "Suivi des retombées et amélioration continue (retours, partenaires à prioriser, ajustements du discours)"
     ],
-    "kpis": [],
+    "kpis": [
+    "Réseau de partenaires développé",
+    "Visibilité renforcée via collaborations ciblées",
+    "Présence en points de vente / événements soutenue"
+    ],
     "tags": ["Commercial", "Partenariats", "Influence"],
     "link": ""
   }
