@@ -414,4 +414,36 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
 [data-theme="dark"] .themeSwitch__icon{
   color: rgba(200,200,200,.9);
 }
+/* Menu du header : plus lisible + bordeaux */
+.header a{
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.header a:hover,
+.header a:focus{
+  color: #774041;
+}
+
+/* option : petit soulignement bordeaux au survol */
+.header a{
+  position: relative;
+}
+.header a::after{
+  content:"";
+  position:absolute;
+  left:0; right:0;
+  bottom:-6px;
+  height:2px;
+  background:#774041;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .15s ease;
+  border-radius: 999px;
+}
+.header a:hover::after,
+.header a:focus::after{
+  transform: scaleX(1);
+}
 
