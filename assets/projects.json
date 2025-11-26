@@ -4,10 +4,10 @@
     "period": "NextRoad • 2024 •",
     "context": "Conception et déploiement d’une plateforme de formation interne pour partager le savoir-faire des experts, capitaliser les connaissances et développer les compétences des collaborateurs (cours, quiz, certificats).",
     "actions": [
-      "Recueil des besoins auprès des managers et des équipes (priorités de montée en compétences, format attendu, contraintes terrain)",
+    "Recueil des besoins auprès des managers et des équipes",
     "Cadrage du projet et structuration des parcours (thématiques, niveaux, prérequis, objectifs pédagogiques)",
-    "Conception et création du site / espace e-learning accessible uniquement en interne (arborescence, navigation, pages, accès)",
-    "Production des contenus pédagogiques : supports, modules, quiz, certificats + mise en forme",
+    "Conception et création du site / espace e-learning accessible uniquement en interne",
+    "Production des contenus pédagogiques : supports, modules, quiz, certificats",
     "Coordination avec les experts métiers pour valider le fond et garantir la qualité des contenus",
     "Déploiement et communication interne (annonce, mode d’emploi, relais, accompagnement du lancement)",
     "Suivi de l’adoption et améliorations continues (retours utilisateurs, mises à jour, nouveaux modules)"
@@ -23,17 +23,22 @@
   {
     "title": "Accueil sécurité digitalisé (onboarding)",
     "period": "NextRoad",
-    "context": "Parcours d’accueil sécurité interactif diffusé avant l’arrivée des nouveaux collaborateurs.",
+    "context": "Digitalisation du parcours d’accueil sécurité pour préparer les nouveaux collaborateurs avant leur arrivée : homogénéiser les messages, gagner du temps côté managers/RH, et renforcer la prévention dès le J1 grâce à un format interactif (contenus + quiz + validation).",
     "actions": [
-      "Scénarisation du parcours (vidéos, supports, quiz)",
-      "Création des contenus pédagogiques",
-      "Mise en ligne + diffusion avant J1",
-      "Traçabilité des validations"
+    "Recueil des besoins et des points de vigilance terrain (RH, managers, QSE) pour définir le contenu incontournable",
+    "Structuration du parcours : étapes, messages clés, règles, bonnes pratiques et points d’alerte",
+    "Scénarisation pédagogique (format interactif, vidéos/supports, progression, quiz de validation)",
+    "Création et mise en forme des contenus (supports, visuels, ressources, quiz) + harmonisation du ton",
+    "Mise en ligne de l’accueil digital et paramétrage de l’accès avant J1 (diffusion aux entrants, consignes)",
+    "Mise en place de la traçabilité : validation/attestation, suivi des complétions, relances si besoin",
+    "Améliorations continues : retours utilisateurs, mises à jour des contenus, ajustements du parcours"
+  ],
     ],
     "kpis": [
       "Gain de temps RH/managers",
-      "Meilleure appropriation dès J1",
-      "Traçabilité en cas d’audit"
+      "Onboarding plus fluide et standardisé",
+      "Meilleure appropriation des règles sécurité dès l’arrivée",
+      "Traçabilité utile en cas d’audit / conformité"
     ],
     "tags": ["Interne", "RH", "Digital", "Process"],
     "link": ""
