@@ -115,10 +115,10 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
 .btn--ghost{
   background: transparent;
   border: 1px solid #c8c8c8;
-  color: var(--text);
+  color: #404040;
   box-shadow: none;
-  .btn:hover{ opacity: .95; }
 }
+
 
 .btn:focus, .nav__btn:focus, a:focus, summary:focus{
   outline: 3px solid rgba(125,211,252,.45); outline-offset: 2px
