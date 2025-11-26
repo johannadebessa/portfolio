@@ -1,13 +1,16 @@
 [
   {
-    "title": "NextRoad Academy — plateforme e-learning",
-    "period": "NextRoad • 2020–",
-    "context": "Conception et déploiement d’une plateforme de formation interne (cours, quiz, certificats).",
+    "title": "NextRoad Academy - plateforme e-learning",
+    "period": "NextRoad • 2024 •",
+    "context": "Conception et déploiement d’une plateforme de formation interne pour partager le savoir-faire des experts, capitaliser les connaissances et développer les compétences des collaborateurs (cours, quiz, certificats).",
     "actions": [
-      "Cadrage du besoin + structuration des parcours",
-      "Création des contenus (supports, quiz, certificats)",
-      "Déploiement & communication interne",
-      "Pilotage de l’adoption et itérations"
+      "Recueil des besoins auprès des managers et des équipes (priorités de montée en compétences, format attendu, contraintes terrain)",
+    "Cadrage du projet et structuration des parcours (thématiques, niveaux, prérequis, objectifs pédagogiques)",
+    "Conception et création du site / espace e-learning accessible uniquement en interne (arborescence, navigation, pages, accès)",
+    "Production des contenus pédagogiques : supports, modules, quiz, certificats + mise en forme",
+    "Coordination avec les experts métiers pour valider le fond et garantir la qualité des contenus",
+    "Déploiement et communication interne (annonce, mode d’emploi, relais, accompagnement du lancement)",
+    "Suivi de l’adoption et améliorations continues (retours utilisateurs, mises à jour, nouveaux modules)"
     ],
     "kpis": [
       "Réduction des coûts de formation",
