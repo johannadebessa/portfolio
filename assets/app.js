@@ -43,7 +43,12 @@ function renderFilters(tags, active, onPick) {
 
 function projectCard(p) {
   const tags = (p.tags || []).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join("");
-  const kpis = (p.kpis || []).map(k => `<span class="kpi">${escapeHtml(k)}</span>`).join("");
+const kpis = (p.kpis || []).map(k => `
+  <span class="kpi">
+    <img class="kpi__icon" src="assets/kpi.png" alt="" aria-hidden="true">
+    <span>${escapeHtml(k)}</span>
+  </span>
+`).join("");
   const actions = (p.actions || []).slice(0, 4).map(a => `<li>${escapeHtml(a)}</li>`).join("");
 
   return `
