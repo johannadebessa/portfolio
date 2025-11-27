@@ -6,28 +6,62 @@
   <title>Supports print - Johanna De Bessa</title>
   <link rel="stylesheet" href="assets/style.css" />
 </head>
+
 <body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="./" aria-label="Retour au portfolio">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__text">Johanna De Bessa</span>
+      </a>
+
+      <nav class="nav" aria-label="Navigation">
+        <a href="./#realisations" class="nav__cta">← Retour</a>
+
+        <button id="themeToggle" class="themeSwitch" type="button" role="switch" aria-checked="false" aria-label="Mode jour / nuit">
+          <span class="themeSwitch__track">
+            <span class="themeSwitch__icon themeSwitch__icon--moon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.8 6.8 0 0 0 9.8 9.8Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="themeSwitch__icon themeSwitch__icon--sun" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+                <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M19.4 4.6 18 6M6 18l-1.4 1.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="themeSwitch__thumb" aria-hidden="true"></span>
+          </span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
   <main class="section">
     <div class="container">
       <div class="section__head">
-        <h1>Supports print</h1>
-        <p class="muted">Sélection de créations (plaquettes, flyers, kakémonos…).</p>
-        <p style="margin-top:14px;">
-          <a class="btn btn--ghost" href="./#realisations">← Retour aux réalisations</a>
-        </p>
+        <div>
+          <h1>Supports print</h1>
+          <p class="muted">Sélection de créations (plaquettes, flyers, kakémonos…).</p>
+        </div>
+        <a class="btn btn--ghost" href="./#realisations">← Retour aux réalisations</a>
       </div>
 
-   <div class="printGrid">
-  <a class="printItem" href="assets/print/plaquette%20rabat.png" target="_blank" rel="noreferrer">
-    <img src="assets/print/plaquette%20rabat.png" alt="Plaquette — exemple" loading="lazy">
-  </a>
-</div>
+      <div class="printGrid">
+        <figure class="printCard">
+          <a class="printLink" href="assets/print/plaquette%20rabat.png" target="_blank" rel="noreferrer">
+            <img src="assets/print/plaquette%20rabat.png" alt="Plaquette — rabat" loading="lazy">
+          </a>
+          <figcaption class="printCaption">Plaquette — rabat</figcaption>
+        </figure>
 
-
-        <a class="printItem" href="assets/print/flyer-1.jpg" target="_blank" rel="noreferrer">
-          <img src="assets/print/flyer-1.jpg" alt="Flyer — exemple" loading="lazy">
-        </a>
+        <figure class="printCard">
+          <a class="printLink" href="assets/print/flyer-1.jpg" target="_blank" rel="noreferrer">
+            <img src="assets/print/flyer-1.jpg" alt="Flyer — exemple" loading="lazy">
+          </a>
+          <figcaption class="printCaption">Flyer</figcaption>
+        </figure>
       </div>
+
     </div>
   </main>
 
