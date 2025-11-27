@@ -492,3 +492,26 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   color: var(--muted);
   border-top:1px solid var(--line);
 }
+/* Styliser le bouton Voir la sélection */
+.btn--ghost {
+  background: transparent;
+  border: 2px solid var(--accent); /* Bordure colorée avec ta couleur accent (bleu ou bordeaux) */
+  color: var(--accent); /* Couleur du texte en accent */
+  font-weight: 700; /* Texte un peu plus bold */
+  padding: 12px 24px; /* Plus de padding pour rendre le bouton plus grand */
+  border-radius: 30px; /* Bords plus arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Une légère ombre pour le faire ressortir */
+  transition: all 0.3s ease; /* Transition douce pour les effets de survol */
+}
+
+.btn--ghost:hover, .btn--ghost:focus {
+  background: var(--accent); /* Couleur de fond au survol */
+  color: #fff; /* Texte blanc au survol */
+  transform: translateY(-3px); /* Petit effet de décalage lors du survol */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Ombre un peu plus marquée */
+}
+
+.btn--ghost:active {
+  transform: translateY(0); /* Retour au niveau normal au clic */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre normale au clic */
+}
