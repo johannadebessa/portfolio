@@ -446,4 +446,16 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
 .header a:focus::after{
   transform: scaleX(1);
 }
+/* Cartes Missions : même hauteur, scroll si besoin */
+.mission-card{
+  max-height: 260px;
+  overflow: auto;
+}
+
+/* rendre la liste plus compacte */
+.mission-card ul{
+  margin: 10px 0 0;
+  padding-left: 18px;
+}
+.mission-card li{ margin: 6px 0; }
 
