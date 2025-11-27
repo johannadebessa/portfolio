@@ -490,4 +490,33 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   height:auto;
   display:block;
 }
+.printGrid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap:16px;
+}
+
+.printCard{
+  margin:0;
+  border:1px solid var(--line);
+  border-radius:18px;
+  overflow:hidden;
+  background: rgba(255,255,255,.55);
+  box-shadow: var(--shadow);
+  transition: transform .15s ease;
+}
+[data-theme="dark"] .printCard{ background: rgba(255,255,255,.05); }
+
+.printLink{ display:block; aspect-ratio: 4 / 3; overflow:hidden; }
+.printLink img{ width:100%; height:100%; object-fit:cover; display:block; transition: transform .2s ease; }
+
+.printCard:hover{ transform: translateY(-2px); }
+.printCard:hover img{ transform: scale(1.04); }
+
+.printCaption{
+  padding:10px 12px;
+  font-size:13px;
+  color: var(--muted);
+  border-top:1px solid var(--line);
+}
 
