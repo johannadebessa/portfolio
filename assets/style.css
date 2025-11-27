@@ -458,7 +458,7 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   padding-left: 18px;
 }
 
-/* ====== GALERIE PRINT (VERSION PROPRE) ====== */
+/* ===== GALERIE PRINT (sans rognage) ===== */
 .printGrid{
   display:grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -473,31 +473,17 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   overflow:hidden;
   background: rgba(255,255,255,.55);
   box-shadow: var(--shadow);
-  transition: transform .15s ease;
-}
-[data-theme="dark"] .printCard{
-  background: rgba(255,255,255,.05);
 }
 
-.printLink{
-  display:block;
-  aspect-ratio: 4 / 3; /* vignettes uniformes */
-  overflow:hidden;
-}
+[data-theme="dark"] .printCard{ background: rgba(255,255,255,.05); }
 
+.printLink{ display:block; }                /* <-- plus d'aspect-ratio */
 .printLink img{
   width:100%;
-  height:100%;
-  object-fit:cover;
+  height:auto;                              /* <-- la hauteur suit l'image */
   display:block;
-  transition: transform .2s ease;
-}
-
-.printCard:hover{
-  transform: translateY(-2px);
-}
-.printCard:hover img{
-  transform: scale(1.04);
+  object-fit: contain;                      /* <-- pas de rognage */
+  background: rgba(0,0,0,.03);              /* petit fond si l'image ne remplit pas */
 }
 
 .printCaption{
@@ -506,4 +492,3 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   color: var(--muted);
   border-top:1px solid var(--line);
 }
-
