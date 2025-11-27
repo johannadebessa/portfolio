@@ -61,8 +61,10 @@ const kpis = (p.kpis || []).map(k => `
 
         <ul class="bullets" style="margin-top:12px">${actions}</ul>
 
-        ${kpis ? `<div class="project__kpis">${kpis}</div>` : ``}
-        <div class="tagrow">${tags}</div>
+      ${kpis ? `<div class="project__kpis">${kpis}</div>` : ``}
+${p.link ? `<div style="margin-top:12px"><a class="btn btn--ghost" href="${escapeHtml(p.link)}">Voir la sélection</a></div>` : ``}
+<div class="tagrow">${tags}</div>
+
       </div>
     </article>
   `;
