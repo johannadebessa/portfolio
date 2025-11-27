@@ -120,5 +120,23 @@
     ],
     "tags": ["Commercial", "Partenariats", "Influence"],
     "link": ""
+    {
+  "title": "Supports print — sélection",
+  "period": "NextRoad / Malicieuse",
+  "context": "Création de supports print pour appuyer la communication et les temps forts (plaquettes, flyers, kakémonos, dépliants…).",
+  "actions": [
+    "Conception des contenus + hiérarchisation des messages",
+    "Mise en page et déclinaisons multi-formats",
+    "Préparation des fichiers pour impression (exports, BAT si applicable)",
+    "Coordination imprimeur / prestataires (si applicable)"
+  ],
+  "kpis": [
+    "Supports harmonisés et réutilisables",
+    "Meilleure lisibilité des messages/offres"
+  ],
+  "tags": ["Créa", "Print", "Contenus"],
+  "link": "print.html"
+}
+
   }
 ]
