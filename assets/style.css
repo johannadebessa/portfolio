@@ -13,14 +13,14 @@
 }
 
 [data-theme="light"]{
-  --bg:#f7fafc;
-  --bg2:#eef2ff;
-  --card:rgba(10,20,40,.06);
-  --card2:rgba(10,20,40,.10);
-  --text:rgba(10,20,40,.92);
-  --muted:rgba(10,20,40,.7);
-  --line:rgba(10,20,40,.12);
-  --accent:#2563eb;
+  --bg:#f4f4f5;                /* gris clair neutre */
+  --bg2:#e7e7ea;               /* gris un peu plus foncé (plus de bleu) */
+  --card:rgba(10,10,10,.04);
+  --card2:rgba(10,10,10,.07);
+  --text:rgba(10,10,10,.92);
+  --muted:rgba(10,10,10,.66);
+  --line:rgba(10,10,10,.12);
+  --accent:#774041;            /* bordeaux */
   --shadow: 0 10px 30px rgba(0,0,0,.12);
 }
 
@@ -134,7 +134,8 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
 
 
 .btn:focus, .nav__btn:focus, a:focus, summary:focus{
-  outline: 3px solid rgba(125,211,252,.45); outline-offset: 2px
+  outline: 3px solid rgba(119,64,65,.35);
+  outline-offset: 2px;
 }
 
 .section{padding:44px 0}
