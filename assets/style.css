@@ -133,8 +133,11 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
 }
 
 
-.btn:focus, .nav__btn:focus, a:focus, summary:focus{
-  outline: 3px solid rgba(119,64,65,.35);
+.btn:focus,
+.nav__btn:focus,
+a:focus,
+summary:focus{
+  outline: 3px solid rgba(119,64,65,.45); /* halo bordeaux */
   outline-offset: 2px;
 }
 
