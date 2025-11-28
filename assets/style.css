@@ -32,8 +32,8 @@ body{
   line-height:1.5;
   color:var(--text);
   background:
-    radial-gradient(900px 400px at 15% 10%, rgba(125,211,252,.18), transparent 60%),
-    radial-gradient(700px 300px at 85% 0%, rgba(99,102,241,.16), transparent 60%),
+    radial-gradient(900px 420px at 15% 10%, rgba(119,64,65,.16), transparent 62%),
+    radial-gradient(700px 360px at 85% 0%, rgba(119,64,65,.10), transparent 60%),
     linear-gradient(180deg, var(--bg), var(--bg2));
 }
 
@@ -457,43 +457,13 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   margin: 10px 0 0;
   padding-left: 18px;
 }
-.mission-card li{ margin: 6px 0; }
-/* Galerie print */
+
+/* ===== GALERIE PRINT (sans rognage) ===== */
 .printGrid{
   display:grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap:18px;
-}
-
-@media (max-width: 900px){
-  .printGrid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-@media (max-width: 560px){
-  .printGrid{ grid-template-columns: 1fr; }
-}
-
-.printItem{
-  display:block;
-  border:1px solid var(--line);
-  border-radius:16px;
-  overflow:hidden;
-  box-shadow: var(--shadow);
-  background: rgba(255,255,255,.55);
-}
-
-[data-theme="dark"] .printItem{
-  background: rgba(255,255,255,.05);
-}
-
-.printItem img{
-  width:100%;
-  height:auto;
-  display:block;
-}
-.printGrid{
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap:16px;
+  align-items:start;
 }
 
 .printCard{
@@ -503,15 +473,18 @@ h1{font-size:44px; line-height:1.1; margin:14px 0 12px}
   overflow:hidden;
   background: rgba(255,255,255,.55);
   box-shadow: var(--shadow);
-  transition: transform .15s ease;
 }
+
 [data-theme="dark"] .printCard{ background: rgba(255,255,255,.05); }
 
-.printLink{ display:block; aspect-ratio: 4 / 3; overflow:hidden; }
-.printLink img{ width:100%; height:100%; object-fit:cover; display:block; transition: transform .2s ease; }
-
-.printCard:hover{ transform: translateY(-2px); }
-.printCard:hover img{ transform: scale(1.04); }
+.printLink{ display:block; }                /* <-- plus d'aspect-ratio */
+.printLink img{
+  width:100%;
+  height:auto;                              /* <-- la hauteur suit l'image */
+  display:block;
+  object-fit: contain;                      /* <-- pas de rognage */
+  background: rgba(0,0,0,.03);              /* petit fond si l'image ne remplit pas */
+}
 
 .printCaption{
   padding:10px 12px;
