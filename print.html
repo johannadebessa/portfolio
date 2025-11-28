@@ -8,6 +8,8 @@
 </head>
 
 <body>
+  <a class="skip" href="#main">Aller au contenu</a>
+
   <header class="header">
     <div class="container header__inner">
       <a class="brand" href="./" aria-label="Retour au portfolio">
@@ -16,7 +18,7 @@
       </a>
 
       <nav class="nav" aria-label="Navigation">
-        <a href="./#realisations" class="nav__cta">← Retour</a>
+        <a href="./#realisations" class="nav__cta">← Retour aux réalisations</a>
 
         <button id="themeToggle" class="themeSwitch" type="button" role="switch" aria-checked="false" aria-label="Mode jour / nuit">
           <span class="themeSwitch__track">
@@ -36,13 +38,14 @@
     </div>
   </header>
 
-  <main class="section">
+  <main id="main" class="section">
     <div class="container">
       <div class="section__head">
         <div>
           <h1>Supports print</h1>
-          <p class="muted">Sélection de créations (plaquettes, flyers, kakémonos…).</p>
+          <p class="muted">Sélection de créations (plaquettes, flyers, kakémonos…). Cliquez pour ouvrir en grand.</p>
         </div>
+      </div>
 
       <div class="printGrid">
         <figure class="printCard">
@@ -59,7 +62,6 @@
           <figcaption class="printCaption">Flyer</figcaption>
         </figure>
       </div>
-
     </div>
   </main>
 
